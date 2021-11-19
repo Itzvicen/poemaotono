@@ -1,0 +1,76 @@
+@font-face {
+    font-family: Texto;
+    src: url(../fonts/Arabella.ttf);
+}
+
+@font-face {
+    font-family: Titulos;
+    src: url(../fonts/Afternoon-in-Stereo-Personal-Use.ttf);
+}
+
+body{
+    background-image: url(../images/7983634-seamlessly-tiling-autumn-leaves-background.jpg);
+}
+
+#container{
+    background-image: url(../images/vecteezybackground-autumnscenery-backgroundfr0721_generated.jpg);
+    background-size: cover;
+    background-position: 70%;
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px rgb(71, 71, 71);
+    color: rgb(0, 0, 0);
+    margin: 40px auto;
+    padding: 20px;
+    width: 90%;
+    height: 100%;
+}
+
+.titulo h1{
+    margin: auto;
+    margin-bottom: 25px;
+    width: 90%;
+    background-color: #946e3d;
+    padding: 13px;
+    color: white;
+    font-family: 'Titulos';
+    font-size: 40px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+#letra{
+    width: 30%;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    font-family: 'Patrick Hand', cursive;
+    font-size: 27px;
+    text-align: center;
+    padding: 20px;
+    font-weight: 400;
+    background-color: #f8d4b3af;
+    border-radius: 20px;
+}
+
+#autor{
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.452);
+}
+
+@media only screen and (max-width:1000px){
+    #container {
+        width: 80%;
+        height: 80%;
+    }
+
+    #letra{
+        width: 80%;
+        margin: auto;
+        color: rgb(0, 0, 0);
+        font-family: 'Patrick Hand', cursive;
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;
+        font-weight: 400;
+        background-color: #f8d4b3af;
+        border-radius: 20px;
+    }
+}
